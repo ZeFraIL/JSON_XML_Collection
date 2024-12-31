@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    android:background="#F3F4E2"
+    tools:context=".JSON_in_fragment">
+
+    <FrameLayout
+        android:id="@+id/FL_ForAirports"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#FFFFFF">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bAirports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#73E1EF"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="View airports"/>
+
+
+</LinearLayout>
